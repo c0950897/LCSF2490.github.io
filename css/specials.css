@@ -1,0 +1,151 @@
+/*  
+Author: Aryamana Satish Kamat
+c0950897
+Date: 
+file name: style.css
+*/
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: #f4a460;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+.logo img{
+    width: auto;
+    margin-right: 10px;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    height: 100px;
+    background-color: #ffdab9;
+    border-radius: 5px;
+    padding: 2px 2px;
+}
+.header-content {
+    margin-left: 80px; /* Make space for the logo */
+}
+nav {
+    background-color: #d2691e;
+    color: white;
+    padding: 0.5rem;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.featured-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.featured-section {
+    position: relative;
+    background-position: center;
+    padding: 40px 0;
+    color: white;
+}
+
+.featured-section h1{
+    position:relative;
+    z-index: 1;
+    text-align: center;
+    color: #ffffff;
+}
+
+.featured-section p{
+    text-align: center;
+    color:white;
+    /* background-color: chocolate; */
+    position: relative;
+    -webkit-text-stroke: 1px #fff;
+}
+
+.featured-content {
+    position: relative;
+    z-index: 1;
+    text-align: left;
+}
+
+.featured-content h1{
+    position:relative;
+    z-index: 1;
+    text-align: center;
+    color: #ffdab9;
+}
+
+#featured-muffins {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.muffin-item {
+    border: 1px solid #ddd;
+    border-radius: 1px;
+    padding: 15px;
+    margin: 15px;
+    width: 200px;
+    text-align: center;
+}
+
+.muffin-item img {
+    width: 100%;
+    height: auto;
+}
+
+.muffin-description h4{
+    position:relative;
+    z-index: 1;
+    text-align: center;
+    color: #ffdab9;
+}
+
+.muffin-description ul{
+    text-align: center;
+    color:#f4a460;
+    /* background-color: chocolate; */
+    position: relative;
+    -webkit-text-stroke: 1px #f4a460;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    position:relative;
+    bottom: 0;
+    width: 100%;
+}

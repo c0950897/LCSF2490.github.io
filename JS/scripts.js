@@ -33,7 +33,7 @@ function toggleAllAnswers() {
           // If the answer is visible, hide it
           answer.style.display = 'none';
       } else {
-          // If the answer is hidden, show it
+          // If the answer is hidden, show  it 
           answer.style.display = 'block';
       }
   });

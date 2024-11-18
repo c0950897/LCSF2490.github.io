@@ -22,25 +22,58 @@
             <li><a href="team.html">Our Team</a></li>
             <li><a href="media.html">Media</a></li>
             <li><a href="faqs.html">FAQs</a></li>
+            <li><a href="Training.html">Trainings</a></li>
         </ul>
     </nav>
 
-    <div class="featured-section" style="background-image: url('images/Welcome2.jpg')">
-        <div class="container featured-content">
-            <h1>Welcome to Muffine Pans ...</h1>
-            <h2>Featured Muffins</h2>
-            <div id="featured-muffins">
-               <!-- Muffin items will be dynamically added here -->
+    <main>
+        <div id="featured-muffins" class="featured-muffins-container">
+            <div class="muffin-item">
+              <img src="images/BlueberryBlastMuffin.jpg" alt="Blueberry Blast">
+              <h3>Blueberry Blast</h3>
+              <button onclick="alert('Added Blueberry Blast to cart!')">Add to Cart</button>
             </div>
-        </div>
-    </div>
-
+            <div class="muffin-item">
+              <img src="images/ChocolateChip.jpg" alt="Chocolate Chip">
+              <h3>Chocolate Chip</h3>
+              <button onclick="alert('Added Chocolate Chip to cart!')">Add to Cart</button>
+            </div>
+            <div class="muffin-item">
+              <img src="images/BananaNut.jpg" alt="Banana Nut">
+              <h3>Banana Nut</h3>
+              <button onclick="alert('Added Banana Nut to cart!')">Add to Cart</button>
+            </div>
+            <div class="muffin-item">
+              <img src="images/LemonPoppySeed.jpg" alt="Lemon Poppy Seed">
+              <h3>Lemon Poppy Seed</h3>
+              <button onclick="alert('Added Lemon Poppy Seed to cart!')">Add to Cart</button>
+            </div>
+          </div>          
+    </main>
+    
     <footer>
-        <p>&copy; 2490 Muffin Pan. All rights reserved. <br>
-        <a href="mailto:info@muffinpans.com">Request information</a><br>
-            Aryaman Satish Kamat&nbsp; &nbsp; c0950897</p>
-    </footer>
-
-    <script src="JS/home.js"></script>
+        <div class="footer-content">
+            <div class="footer-section">
+              <h4>About Us</h4>
+              <p>At Muffin Pans, we bring you the best muffins baked fresh daily with love and care.</p>
+            </div>
+            <div class="footer-section">
+              <h4>Quick Links</h4>
+              <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="specials.html">Menu</a></li>
+                <li><a href="contact.html">Contact</a></li>
+              </ul>
+        </div>
+        <div class="footer-section">
+            <h4>Connect With Us</h4>
+            <a href="mailto:info@muffinpans.com">info@muffinpans.com</a>
+            <p>Follow us on social media for the latest updates and offers!</p>
+            <a href="https://www.facebook.com">Facebook</a> | 
+            <a href="https://www.instagram.com">Instagram</a>
+          </div>
+        </div>
+        <p style="margin-top: 1rem;">&copy; 2490 Muffin Pan. All rights reserved. <br> Aryaman Satish Kamat&nbsp; &nbsp; c0950897</p>        
+    </footer>              
 </body>
 </html>
